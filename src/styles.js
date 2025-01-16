@@ -79,6 +79,16 @@ export const ProductColors = styled.p`
   }
 `;
 
+export const ProductSize = styled.p`
+  margin: 0;
+  font-size: 16px;
+  color: #7f8c8d;
+
+  strong {
+    color: #34495e;
+  }
+`;
+
 export const ProductImages = styled.div`
   display: flex;
   gap: 10px;

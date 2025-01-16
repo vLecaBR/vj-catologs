@@ -10,6 +10,7 @@ import {
   ProductTitle,
   ProductPrice,
   ProductColors,
+  ProductSize,
 } from "./styles";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       name: "Tenis XXX",
       price: "R$ 500,00",
       colors: ["Preto", "Azul", "Vermelho"],
+      size: ["37", "38", "39", "40", "41", "42"],
       images: [
         "https://via.placeholder.com/300",
         "https://via.placeholder.com/300",
@@ -31,6 +33,7 @@ const App = () => {
       name: "Tenis YYY",
       price: "R$ 500,00",
       colors: ["Branco", "Cinza"],
+      size: ["37", "38", "39", "40", "41", "42"],
       images: [
         "https://via.placeholder.com/300",
         "https://via.placeholder.com/300",
@@ -54,6 +57,9 @@ const App = () => {
             <ProductColors>
               <strong>Cores:</strong> {product.colors.join(", ")}
             </ProductColors>
+            <ProductSize>
+              <strong>Tamanhos:</strong> {product.size.join(", ")}
+            </ProductSize>
           </ProductDetails>
           <ProductImages>
             {product.images.map((image, index) => (
