@@ -41,6 +41,32 @@ const App = () => {
         "https://via.placeholder.com/300",
       ],
     },
+    {
+      id: 3,
+      name: "Tenis ZZZ",
+      price: "R$ 500,00",
+      colors: ["Branco", "Cinza"],
+      size: ["37", "38", "39", "40", "41", "42"],
+      images: [
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+      ],
+    },
+    {
+      id: 4,
+      name: "Tenis 000",
+      price: "R$ 500,00",
+      colors: ["Branco", "Cinza"],
+      size: ["37", "38", "39", "40", "41", "42"],
+      images: [
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+      ],
+    },
   ];
 
   return (
