@@ -17,8 +17,8 @@ const App = () => {
   const products = [
     {
       id: 1,
-      name: "Tenis XXX",
-      price: "R$ 500,00",
+      name: "Nike Dunk",
+      price: "R$ 320,00",
       colors: ["Preto", "Azul", "Vermelho"],
       size: ["37", "38", "39", "40", "41", "42"],
       images: [
@@ -30,8 +30,8 @@ const App = () => {
     },
     {
       id: 2,
-      name: "Tenis YYY",
-      price: "R$ 500,00",
+      name: "Nike Air Jordan",
+      price: "R$ 320,00",
       colors: ["Branco", "Cinza"],
       size: ["37", "38", "39", "40", "41", "42"],
       images: [
@@ -43,8 +43,8 @@ const App = () => {
     },
     {
       id: 3,
-      name: "Tenis ZZZ",
-      price: "R$ 500,00",
+      name: "Air Force 1",
+      price: "R$ 320,00",
       colors: ["Branco", "Cinza"],
       size: ["37", "38", "39", "40", "41", "42"],
       images: [
@@ -56,8 +56,21 @@ const App = () => {
     },
     {
       id: 4,
-      name: "Tenis 000",
-      price: "R$ 500,00",
+      name: "Louis Vuitton Skate",
+      price: "R$ 450,00",
+      colors: ["Branco", "Cinza"],
+      size: ["37", "38", "39", "40", "41", "42"],
+      images: [
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+        "https://via.placeholder.com/300",
+      ],
+    },
+    {
+      id: 5,
+      name: "Louis Vuitton Skate",
+      price: "R$ 450,00",
       colors: ["Branco", "Cinza"],
       size: ["37", "38", "39", "40", "41", "42"],
       images: [
