@@ -69,7 +69,7 @@ const App = () => {
     },
     {
       id: 5,
-      name: "Louis Vuitton Skate",
+      name: "Louis Vuitton Trainer",
       price: "R$ 450,00",
       colors: ["Branco", "Cinza"],
       size: ["37", "38", "39", "40", "41", "42"],
